@@ -10,7 +10,6 @@ export default {
   name: 'App',
   methods: {
     handleContextMenu (event) {
-      console.log(event);
       const menu = [
         {
           label: "添加",
